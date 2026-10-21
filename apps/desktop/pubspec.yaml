@@ -1,0 +1,26 @@
+name: phone_backup_desktop
+description: Phone Backup for Windows - encrypted vault and file explorer.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_selector: ^1.0.3
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  vault_core:
+    path: ../../packages/vault_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
