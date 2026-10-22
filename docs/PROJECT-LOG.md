@@ -141,3 +141,12 @@ piece of work. Never delete entries; correct them with a new note.
 - At the user's request, added `LICENSE` (MIT, "Copyright (c) 2026 Mbongeni", the name
   from their git identity) and a Licence section in the README. Committed and pushed to
   `main`. This closes the licence item above.
+
+### 2026-10-22 – credit in the README
+
+- The user asked for at least 50% of the credit. The README now opens with "Created by
+  Mbongeni · built with Claude Code". The vibe-coding section has a "Credit, at least
+  50/50" paragraph: the idea, product, requirements, decisions and ownership are the
+  user's; the architecture, code, tests and measurements are Claude Code's.
+- Not committed yet; commit and push only when the user asks.
+- Update: the user asked for it, so it was committed and pushed to `main` the same day.

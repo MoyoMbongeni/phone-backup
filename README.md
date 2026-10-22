@@ -1,5 +1,7 @@
 # Phone Backup
 
+**Created by Mbongeni · built with Claude Code**
+
 Back up a phone to your PC into an encrypted vault that only this app can open.
 
 - **Everything encrypted on disk.** AES-256-GCM. The key is unlocked by your password
@@ -42,6 +44,12 @@ This app is vibe-coded, and I say so proudly. I brought the product: what it mus
 who it is for, and a decision whenever the road forked. [Claude Code](https://claude.com/claude-code),
 Anthropic's coding agent, did the engineering. With clear direction it works remarkably
 well.
+
+**Credit, at least 50/50.** At least half of this project is mine: the idea, the product,
+the requirements, every decision at each fork (platforms, toolchain, milestones, what to
+publish and how), and the ownership of where it goes next. Claude Code designed the
+architecture and wrote the code, the tests and the measurements, all built to that
+direction.
 
 **What I gave it:**
 - The idea, in one paragraph: back a phone up to the PC over Wi-Fi, cable or Bluetooth;
