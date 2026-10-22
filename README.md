@@ -73,6 +73,10 @@ well-known designs and is tested against published vectors, but it has not had a
 independent security audit yet. Don't make it the only copy of anything you can't afford
 to lose until it has.
 
+## Licence
+
+MIT, see [LICENSE](LICENSE). Use it, change it and share it; keep the copyright notice.
+
 ## Contact
 
 Mbongeni · mbongenimorey92@gmail.com

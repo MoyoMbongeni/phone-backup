@@ -22,13 +22,12 @@ piece of work. Never delete entries; correct them with a new note.
 - **Speed on this PC:** unlock about 0.7 s; backup about 70 MiB/s; reading back about
   400 MiB/s; thumbnails 2–4 ms each.
 - **Public on GitHub:** https://github.com/MoyoMbongeni/phone-backup (branch `main`,
-  published 2026-10-22).
+  published 2026-10-22). MIT licence, copyright Mbongeni.
 - **Screenshots** of every screen are in `docs/screenshots/`.
 
 ## Open items
 
 **Decisions waiting on the user:**
-- A licence for the public repo (e.g. MIT, Apache-2.0, GPL-3.0, or none).
 - What "more access with two or more emails" means: alternate login and recovery
   addresses, or step-up approval through a second email for risky actions (delete
   backups, add a device, restore to another phone). Suggested: both. Needed before
@@ -136,3 +135,9 @@ piece of work. Never delete entries; correct them with a new note.
   pushed with the GitHub CLI (logged in as MoyoMbongeni).
 - **Open:** no licence file yet; without one the code is visible but not reusable by
   others. The user decides which licence, if any.
+
+### 2026-10-22 – MIT licence
+
+- At the user's request, added `LICENSE` (MIT, "Copyright (c) 2026 Mbongeni", the name
+  from their git identity) and a Licence section in the README. Committed and pushed to
+  `main`. This closes the licence item above.
